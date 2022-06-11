@@ -1,9 +1,6 @@
 {
     "name": "com.kingdox.mma.file.binary",
     "version": "1.0.0",
-    "dependencies": {
-        "com.kingdox.mma": "0.1.0"
-    },
     "displayName": "Kingdox MMA.File.Binary",
     "description": "Module to handle Binary Files",
     "unity": "2020.1",
