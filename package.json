@@ -2,7 +2,7 @@
     "name": "com.kingdox.mma.file.binary",
     "version": "1.0.0",
     "dependencies": {
-        "com.kingdox.mma": "0.1.0"
+        "com.kingdox.mma": "com.kingdox.mma.file.binary@https://github.com/kingdox/mma.git"
     },
     "displayName": "Kingdox MMA.File.Binary",
     "description": "Module to handle Binary Files",
