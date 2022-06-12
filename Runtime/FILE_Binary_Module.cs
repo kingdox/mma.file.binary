@@ -12,11 +12,11 @@ namespace Architecture.FILE_Binary
 {
     public static partial class Key
     {
-        public const string Path   = "FILE_Binary_Path";
-        public const string Load   = "FILE_Binary_Load";
-        public const string Save   = "FILE_Binary_Save";
-        public const string Exist  = "FILE_Binary_Exist";
-        public const string Delete = "FILE_Binary_Delete";
+        public static string Path   = "FILE_Binary_Path";
+        public static string Load   = "FILE_Binary_Load";
+        public static string Save   = "FILE_Binary_Save";
+        public static string Exist  = "FILE_Binary_Exist";
+        public static string Delete = "FILE_Binary_Delete";
     }
     public sealed partial class FILE_Binary_Module : Module
     {
