@@ -88,3 +88,24 @@ namespace Architecture.FILE_Binary
         #endregion
     }
 }
+
+
+/*
+
+TODO:
+
+1. Crear un diccionario de string y object, donde dicho object sea el cache del dato que hemos cargado de los archivos
+1.1 Si alguien carga un archivo, revisa si hay guardado en caché y lo usa, sino carga y asigna en caché
+1.2 Si alguien coloca nuevos datos, estos tambien actualizarán los datos en caché
+
+2. Crear un array de strings que representan los path de cada archivo creado por el modulo binario
+2.1 cada vez que alguien cree un nuevo archivo se añade aquí
+2.2 cada vez que alguien elimine un archivo de los del path se actualiza aquí
+2.3 dar segunda opción de busqueda que cuando alguien quiere hacer busqueda de los archivos se revisa el string[] y no usa File.Exist
+
+3. Tener una opción que permita limpiarlo todo
+
+- Se creará un segundo archivo que contendrá un 
+
+
+*/
