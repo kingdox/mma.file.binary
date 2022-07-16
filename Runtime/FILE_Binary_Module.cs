@@ -8,15 +8,15 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 #endregion
-namespace Architecture.FILE_Binary
+namespace MMA.FILE_Binary
 {
     public static partial class Key
     {
-        public static string Path   = "FILE_Binary_Path";
-        public static string Load   = "FILE_Binary_Load";
-        public static string Save   = "FILE_Binary_Save";
-        public static string Exist  = "FILE_Binary_Exist";
-        public static string Delete = "FILE_Binary_Delete";
+        public static int Path   = Middleware.indexMethodCount++;
+        public static int Load   = Middleware.indexMethodCount++;
+        public static int Save   = Middleware.indexMethodCount++;
+        public static int Exist  = Middleware.indexMethodCount++;
+        public static int Delete = Middleware.indexMethodCount++;
     }
     public sealed partial class FILE_Binary_Module : Module
     {
